@@ -1,0 +1,15 @@
+{
+  "name": "todoswitch",
+  "version": "1.0.0",
+  "description": "Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois qu'une chose est faite, la rayer. Rajouter la possibilité de n'afficher que les tâches faites, les tâches à faire ou toutes les tâches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "semantic-ui-css": "^2.2.4"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Switch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <div class="container">
+
+        <div class="todolistx">
+            <input id="todox" placeholder="Entrez une tâche à effectuer" /><button class="Ajoutage" id="add">Ajout</button>
+        </div>
+
+
+        <ul id="todolist">
+            <li class="nonvalide">Faire une To Do List</li><button class="validage nonvalide">x</button>
+            <li class="nonvalide">Finir mon exo sur le LocalStorage</li><button class="validage nonvalide">x</button>
+            <li class="nonvalide">Attaquer l'exo sur le blog</li><button class="validage nonvalide">x</button>
+            <li class="nonvalide">Aller au Ski</li><button class="validage nonvalide">x</button>
+            <li class="nonvalide">Manger</li><button class="validage nonvalide">x</button>
+            <li class="nonvalide">Dormir</li><button class="validage nonvalide">x</button>
+            <li class="nonvalide">Mourir</li><button class="validage nonvalide">x</button>
+
+        </ul>
+
+        <button type="button" id="todo" class="btn btn-primary">tâches à faire</button>
+        <button type="button" id="done" class="btn btn-primary">tâches faite</button>
+        <button type="button" id="all" class="btn btn-primary">Toutes les tâches</button>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
