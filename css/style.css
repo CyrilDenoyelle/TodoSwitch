@@ -1,28 +1,49 @@
+.flexB {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
 .container {
-    justify-content: center;
+	padding: 20px;
+	justify-content: center;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
-#todolist {
-    margin-top: 20px;
+.todolist {
+	margin-top: 10px;
+
 }
+
+.list {
+	width: 30%;
+}
+
+/*.todolistcont {
+	transition: height 1s;
+}*/
 
 body {
-    background-color: #a6b237;
+	background-color: #50FFFA;
 }
 
 h1 {
-    text-align: center;
-    font-size: 100px;
+	text-align: center;
+	font-size: 100px;
 }
 
 li.valide {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 .cach {
-    display: none;
+	display: none;
+}
+
+.titres {
+	padding-top: 10px;
+	font-size: 20px;
 }
